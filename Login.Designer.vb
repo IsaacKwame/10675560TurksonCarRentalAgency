@@ -22,12 +22,13 @@ Partial Class Login
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtUsername = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.txtPassword = New System.Windows.Forms.TextBox()
         Me.btnLogin = New System.Windows.Forms.Button()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.txtUsername = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button4 = New System.Windows.Forms.Button()
@@ -45,28 +46,28 @@ Partial Class Login
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.txtUsername)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(317, 124)
+        Me.GroupBox1.Location = New System.Drawing.Point(338, 136)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(424, 184)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Login"
         '
-        'Label1
+        'btnLogin
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(36, 60)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(55, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Username"
+        Me.btnLogin.Location = New System.Drawing.Point(343, 152)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.Size = New System.Drawing.Size(75, 23)
+        Me.btnLogin.TabIndex = 2
+        Me.btnLogin.Text = "Login"
+        Me.btnLogin.UseVisualStyleBackColor = True
         '
-        'txtUsername
+        'txtPassword
         '
-        Me.txtUsername.Location = New System.Drawing.Point(114, 53)
-        Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(257, 20)
-        Me.txtUsername.TabIndex = 1
+        Me.txtPassword.Location = New System.Drawing.Point(114, 83)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(257, 20)
+        Me.txtPassword.TabIndex = 1
         '
         'Label2
         '
@@ -77,21 +78,21 @@ Partial Class Login
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Password"
         '
-        'txtPassword
+        'txtUsername
         '
-        Me.txtPassword.Location = New System.Drawing.Point(114, 83)
-        Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(257, 20)
-        Me.txtPassword.TabIndex = 1
+        Me.txtUsername.Location = New System.Drawing.Point(114, 53)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.Size = New System.Drawing.Size(257, 20)
+        Me.txtUsername.TabIndex = 1
         '
-        'btnLogin
+        'Label1
         '
-        Me.btnLogin.Location = New System.Drawing.Point(343, 152)
-        Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.Size = New System.Drawing.Size(75, 23)
-        Me.btnLogin.TabIndex = 2
-        Me.btnLogin.Text = "Login"
-        Me.btnLogin.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(36, 60)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(55, 13)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Username"
         '
         'Label9
         '
@@ -125,9 +126,12 @@ Partial Class Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1077, 450)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GroupBox1)
+        Me.DoubleBuffered = True
         Me.Name = "Login"
         Me.Text = "Login"
         Me.GroupBox1.ResumeLayout(False)

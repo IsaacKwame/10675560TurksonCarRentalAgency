@@ -24,21 +24,21 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtCN = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtCM = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtCMO = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtCT = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtCC = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtCMI = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.txtCP = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.txtCS = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -46,11 +46,11 @@ Partial Class Form1
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RentedCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AvailableCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.RentedCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AvailableCarsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -74,13 +74,13 @@ Partial Class Form1
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Car Name"
         '
-        'TextBox1
+        'txtCN
         '
-        Me.TextBox1.AllowDrop = True
-        Me.TextBox1.Location = New System.Drawing.Point(124, 155)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(194, 20)
-        Me.TextBox1.TabIndex = 2
+        Me.txtCN.AllowDrop = True
+        Me.txtCN.Location = New System.Drawing.Point(124, 155)
+        Me.txtCN.Name = "txtCN"
+        Me.txtCN.Size = New System.Drawing.Size(194, 20)
+        Me.txtCN.TabIndex = 2
         '
         'Label2
         '
@@ -91,12 +91,12 @@ Partial Class Form1
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Car Manufacturer"
         '
-        'TextBox2
+        'txtCM
         '
-        Me.TextBox2.Location = New System.Drawing.Point(124, 181)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(194, 20)
-        Me.TextBox2.TabIndex = 2
+        Me.txtCM.Location = New System.Drawing.Point(124, 181)
+        Me.txtCM.Name = "txtCM"
+        Me.txtCM.Size = New System.Drawing.Size(194, 20)
+        Me.txtCM.TabIndex = 2
         '
         'Label3
         '
@@ -107,12 +107,12 @@ Partial Class Form1
         Me.Label3.TabIndex = 1
         Me.Label3.Text = "Car Model"
         '
-        'TextBox3
+        'txtCMO
         '
-        Me.TextBox3.Location = New System.Drawing.Point(124, 207)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(194, 20)
-        Me.TextBox3.TabIndex = 2
+        Me.txtCMO.Location = New System.Drawing.Point(124, 207)
+        Me.txtCMO.Name = "txtCMO"
+        Me.txtCMO.Size = New System.Drawing.Size(194, 20)
+        Me.txtCMO.TabIndex = 2
         '
         'Label4
         '
@@ -123,12 +123,12 @@ Partial Class Form1
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "Car Type"
         '
-        'TextBox4
+        'txtCT
         '
-        Me.TextBox4.Location = New System.Drawing.Point(124, 233)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(194, 20)
-        Me.TextBox4.TabIndex = 2
+        Me.txtCT.Location = New System.Drawing.Point(124, 233)
+        Me.txtCT.Name = "txtCT"
+        Me.txtCT.Size = New System.Drawing.Size(194, 20)
+        Me.txtCT.TabIndex = 2
         '
         'Label5
         '
@@ -139,12 +139,12 @@ Partial Class Form1
         Me.Label5.TabIndex = 1
         Me.Label5.Text = "Car Capacity"
         '
-        'TextBox5
+        'txtCC
         '
-        Me.TextBox5.Location = New System.Drawing.Point(124, 259)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(194, 20)
-        Me.TextBox5.TabIndex = 2
+        Me.txtCC.Location = New System.Drawing.Point(124, 259)
+        Me.txtCC.Name = "txtCC"
+        Me.txtCC.Size = New System.Drawing.Size(194, 20)
+        Me.txtCC.TabIndex = 2
         '
         'Label6
         '
@@ -155,12 +155,12 @@ Partial Class Form1
         Me.Label6.TabIndex = 1
         Me.Label6.Text = "Car Mileage"
         '
-        'TextBox6
+        'txtCMI
         '
-        Me.TextBox6.Location = New System.Drawing.Point(124, 285)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(194, 20)
-        Me.TextBox6.TabIndex = 2
+        Me.txtCMI.Location = New System.Drawing.Point(124, 285)
+        Me.txtCMI.Name = "txtCMI"
+        Me.txtCMI.Size = New System.Drawing.Size(194, 20)
+        Me.txtCMI.TabIndex = 2
         '
         'Label7
         '
@@ -171,12 +171,12 @@ Partial Class Form1
         Me.Label7.TabIndex = 1
         Me.Label7.Text = "Car Price"
         '
-        'TextBox7
+        'txtCP
         '
-        Me.TextBox7.Location = New System.Drawing.Point(124, 311)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(194, 20)
-        Me.TextBox7.TabIndex = 2
+        Me.txtCP.Location = New System.Drawing.Point(124, 311)
+        Me.txtCP.Name = "txtCP"
+        Me.txtCP.Size = New System.Drawing.Size(194, 20)
+        Me.txtCP.TabIndex = 2
         '
         'Label8
         '
@@ -187,12 +187,12 @@ Partial Class Form1
         Me.Label8.TabIndex = 1
         Me.Label8.Text = "Car Status"
         '
-        'TextBox8
+        'txtCS
         '
-        Me.TextBox8.Location = New System.Drawing.Point(124, 337)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(194, 20)
-        Me.TextBox8.TabIndex = 2
+        Me.txtCS.Location = New System.Drawing.Point(124, 337)
+        Me.txtCS.Name = "txtCS"
+        Me.txtCS.Size = New System.Drawing.Size(194, 20)
+        Me.txtCS.TabIndex = 2
         '
         'Button1
         '
@@ -254,6 +254,18 @@ Partial Class Form1
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "File"
         '
+        'RentedCarsToolStripMenuItem
+        '
+        Me.RentedCarsToolStripMenuItem.Name = "RentedCarsToolStripMenuItem"
+        Me.RentedCarsToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.RentedCarsToolStripMenuItem.Text = "Rented Cars"
+        '
+        'AvailableCarsToolStripMenuItem
+        '
+        Me.AvailableCarsToolStripMenuItem.Name = "AvailableCarsToolStripMenuItem"
+        Me.AvailableCarsToolStripMenuItem.Size = New System.Drawing.Size(148, 22)
+        Me.AvailableCarsToolStripMenuItem.Text = "Available Cars"
+        '
         'Label9
         '
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -282,18 +294,6 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(954, 58)
         Me.Panel1.TabIndex = 3
         '
-        'RentedCarsToolStripMenuItem
-        '
-        Me.RentedCarsToolStripMenuItem.Name = "RentedCarsToolStripMenuItem"
-        Me.RentedCarsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.RentedCarsToolStripMenuItem.Text = "Rented Cars"
-        '
-        'AvailableCarsToolStripMenuItem
-        '
-        Me.AvailableCarsToolStripMenuItem.Name = "AvailableCarsToolStripMenuItem"
-        Me.AvailableCarsToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.AvailableCarsToolStripMenuItem.Text = "Available Cars"
-        '
         'Form1
         '
         Me.AllowDrop = True
@@ -306,21 +306,21 @@ Partial Class Form1
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.TextBox8)
+        Me.Controls.Add(Me.txtCS)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.txtCP)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.txtCMI)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.txtCC)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.txtCT)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.txtCMO)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.txtCM)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtCN)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip1)
@@ -339,21 +339,21 @@ Partial Class Form1
 
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtCN As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtCM As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtCMO As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txtCT As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtCC As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtCMI As TextBox
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents txtCP As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents txtCS As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button

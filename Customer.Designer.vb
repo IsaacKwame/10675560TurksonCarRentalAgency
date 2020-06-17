@@ -27,26 +27,26 @@ Partial Class Customer
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtCLN = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtCMC = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtCA = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label9 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtNHIS = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtVID = New System.Windows.Forms.TextBox()
         Me.btnProceedToShowRoom = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.btnSave = New System.Windows.Forms.Button()
         Me.btnNewCustomer = New System.Windows.Forms.Button()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtPIP = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -94,12 +94,12 @@ Partial Class Customer
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Customer Address"
         '
-        'TextBox3
+        'txtCMC
         '
-        Me.TextBox3.Location = New System.Drawing.Point(167, 223)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(235, 20)
-        Me.TextBox3.TabIndex = 1
+        Me.txtCMC.Location = New System.Drawing.Point(167, 223)
+        Me.txtCMC.Name = "txtCMC"
+        Me.txtCMC.Size = New System.Drawing.Size(235, 20)
+        Me.txtCMC.TabIndex = 1
         '
         'Label4
         '
@@ -110,12 +110,12 @@ Partial Class Customer
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Customer Mobile Contact"
         '
-        'TextBox4
+        'txtCA
         '
-        Me.TextBox4.Location = New System.Drawing.Point(167, 249)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(235, 20)
-        Me.TextBox4.TabIndex = 1
+        Me.txtCA.Location = New System.Drawing.Point(167, 249)
+        Me.txtCA.Name = "txtCA"
+        Me.txtCA.Size = New System.Drawing.Size(235, 20)
+        Me.txtCA.TabIndex = 1
         '
         'PictureBox1
         '
@@ -145,15 +145,6 @@ Partial Class Customer
         Me.Panel1.Size = New System.Drawing.Size(585, 77)
         Me.Panel1.TabIndex = 4
         '
-        'Label9
-        '
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(3, 7)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(511, 41)
-        Me.Label9.TabIndex = 5
-        Me.Label9.Text = "Turkson Car Rental Agency"
-        '
         'Label7
         '
         Me.Label7.AutoSize = True
@@ -163,6 +154,15 @@ Partial Class Customer
         Me.Label7.Size = New System.Drawing.Size(134, 22)
         Me.Label7.TabIndex = 5
         Me.Label7.Text = "Customer Page"
+        '
+        'Label9
+        '
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(3, 7)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(511, 41)
+        Me.Label9.TabIndex = 5
+        Me.Label9.Text = "Turkson Car Rental Agency"
         '
         'TextBox9
         '
@@ -190,12 +190,12 @@ Partial Class Customer
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "Customer NHIS number"
         '
-        'TextBox5
+        'txtNHIS
         '
-        Me.TextBox5.Location = New System.Drawing.Point(167, 275)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(235, 20)
-        Me.TextBox5.TabIndex = 1
+        Me.txtNHIS.Location = New System.Drawing.Point(167, 275)
+        Me.txtNHIS.Name = "txtNHIS"
+        Me.txtNHIS.Size = New System.Drawing.Size(235, 20)
+        Me.txtNHIS.TabIndex = 1
         '
         'Label6
         '
@@ -206,12 +206,12 @@ Partial Class Customer
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "Customer Voters ID"
         '
-        'TextBox6
+        'txtVID
         '
-        Me.TextBox6.Location = New System.Drawing.Point(167, 301)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(235, 20)
-        Me.TextBox6.TabIndex = 1
+        Me.txtVID.Location = New System.Drawing.Point(167, 301)
+        Me.txtVID.Name = "txtVID"
+        Me.txtVID.Size = New System.Drawing.Size(235, 20)
+        Me.txtVID.TabIndex = 1
         '
         'btnProceedToShowRoom
         '
@@ -258,12 +258,12 @@ Partial Class Customer
         Me.Label8.TabIndex = 0
         Me.Label8.Text = "Customer Passport ID"
         '
-        'TextBox1
+        'txtPIP
         '
-        Me.TextBox1.Location = New System.Drawing.Point(167, 327)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(235, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.txtPIP.Location = New System.Drawing.Point(167, 327)
+        Me.txtPIP.Name = "txtPIP"
+        Me.txtPIP.Size = New System.Drawing.Size(235, 20)
+        Me.txtPIP.TabIndex = 1
         '
         'Label11
         '
@@ -296,15 +296,15 @@ Partial Class Customer
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtPIP)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.txtVID)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.txtNHIS)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.txtCA)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.txtCMC)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txtCLN)
         Me.Controls.Add(Me.Label2)
@@ -327,9 +327,9 @@ Partial Class Customer
     Friend WithEvents Label2 As Label
     Friend WithEvents txtCLN As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtCMC As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txtCA As TextBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Panel1 As Panel
@@ -338,15 +338,15 @@ Partial Class Customer
     Friend WithEvents TextBox9 As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtNHIS As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtVID As TextBox
     Friend WithEvents btnProceedToShowRoom As Button
     Friend WithEvents btnReset As Button
     Friend WithEvents btnSave As Button
     Friend WithEvents btnNewCustomer As Button
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtPIP As TextBox
     Friend WithEvents Label11 As Label
     Friend WithEvents TextBox2 As TextBox
 End Class

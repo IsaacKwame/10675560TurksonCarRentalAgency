@@ -69,9 +69,9 @@ Partial Class Payment
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(59, 106)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.Size = New System.Drawing.Size(54, 13)
         Me.Label1.TabIndex = 6
-        Me.Label1.Text = "Label1"
+        Me.Label1.Text = "Car Name"
         '
         'TextBox1
         '
@@ -92,9 +92,9 @@ Partial Class Payment
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(59, 132)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.Size = New System.Drawing.Size(82, 13)
         Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Label1"
+        Me.Label2.Text = "Customer Name"
         '
         'TextBox2
         '
